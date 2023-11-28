@@ -77,6 +77,14 @@ select {
   font-weight: bold;
 }
 
+.form-login{
+  display: flex;
+  margin-right: 1.3rem;
+  padding-right: 3rem;
+  width: 85%;
+ 
+
+}
 .form-control {
   display: flex;
 }
