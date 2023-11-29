@@ -11,6 +11,7 @@ body {
   background-color: rgba(137, 43, 226, 0.171);
   background-position: center;
   background-size: cover;
+  padding: 20px;
 }
 
 button {
@@ -170,6 +171,8 @@ footer{
   padding-top: 100px;
   text-align: center;
 }
+
+
 /*login*/
 
 .cadeado{
