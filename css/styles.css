@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("../img/bg.jpg");
+  background-color: rgba(137, 43, 226, 0.171);
   background-position: center;
   background-size: cover;
 }
@@ -28,6 +28,7 @@ button {
 
 button:hover {
   background-color: #102f5e;
+  color: #fff;
 }
 
 button:hover > i {
@@ -77,14 +78,7 @@ select {
   font-weight: bold;
 }
 
-.form-login{
-  display: flex;
-  margin-right: 1.3rem;
-  padding-right: 3rem;
-  width: 85%;
- 
 
-}
 .form-control {
   display: flex;
 }
@@ -95,7 +89,8 @@ select {
 
 #cancel-edit-btn {
   margin-top: 1rem;
-  color: #444;
+  background-color: #102f5e;
+  color: #fff;
 }
 
 /* Todo Toolbar */
@@ -170,18 +165,24 @@ select {
   color: white;
 }
 
+footer{
+  padding-bottom: 100px;
+  padding-top: 100px;
+  text-align: center;
+}
 /*login*/
 
 .cadeado{
- 
-  margin-top: 1px;
   width: 30px;
   margin: auto;
   display: block;
   
 }
 
-footer{
-  padding-bottom: 100px;
-  padding-top: 100px;
+.form-login{
+  display: flex;
+  margin-right: 1.3rem;
+  padding-right: 3rem;
+  width: 85%;
 }
+
